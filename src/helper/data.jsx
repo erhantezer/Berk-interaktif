@@ -14,13 +14,13 @@ export const links = [
     },
     {
         id: 3,
-        url: '/projects',
-        text: 'projects',
+        url: '/vegayazilim',
+        text: 'Vega Yazılım',
     },
     {
         id: 4,
-        url: '/contact',
-        text: 'contact',
+        url: '/edönüsüm',
+        text: 'edönüsüm',
     },
     {
         id: 5,
