@@ -24,8 +24,23 @@ export const links = [
     },
     {
         id: 5,
-        url: '/profile',
-        text: 'profile',
+        url: '/hizmet',
+        text: 'hizmetlerimiz',
+    },
+    {
+        id: 5,
+        url: '/referans',
+        text: 'referans',
+    },
+    {
+        id: 5,
+        url: '/destek',
+        text: 'destek',
+    },
+    {
+        id: 5,
+        url: '/iletişim',
+        text: 'iletişim',
     },
 ];
 

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import logo from "../assets/berk-logo-1.png";
+import logo from "../assets/Berk_edited.png";
 import { FaBars } from "react-icons/fa";
 import { 
   links, 
