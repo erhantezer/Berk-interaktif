@@ -11,7 +11,7 @@ const Navbar = () => {
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     console.log(linksHeight)
-    //! Bir öğenin boyutunu ve görüntü alanına göre konumunu döndürür
+   
     // const linksHeight = 168;
     show ? (linksContainerRef.current.style.height = `${linksHeight}px`) :
       (linksContainerRef.current.style.height = "0px");
