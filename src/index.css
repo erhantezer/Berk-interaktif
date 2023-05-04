@@ -51,6 +51,9 @@ Global Styles
 ===============
 */
 
+
+
+
 *,
 ::after,
 ::before {
@@ -66,6 +69,7 @@ body {
     background: var(--clr-grey-10);
     line-height: 1.5;
     font-size: 0.875rem;
+    
 }
 
 ul {
@@ -126,6 +130,11 @@ p {
 
     body {
         font-size: 1rem;
+        background-image: url("./assets/berk-logo-1.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     }
 
     h1,
@@ -156,6 +165,14 @@ p {
 Navbar
 ===============
 */
+body{
+background-image: url("./assets/berk-logo-1.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 nav {
     background: var(--clr-white);
     box-shadow: var(--light-shadow);
@@ -223,6 +240,13 @@ nav {
 }
 
 @media screen and (min-width: 800px) {
+    body{
+    background-image: url("./assets/berk-logo-1.png");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
     .nav-center {
         max-width: 100%;
         margin: 0 auto;
