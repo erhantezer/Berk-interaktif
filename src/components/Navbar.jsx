@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import logo from "../assets/berk-logo-1.png";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "../helper/data";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -11,7 +12,6 @@ const Navbar = () => {
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     console.log(linksHeight)
-   
     // const linksHeight = 168;
     show ? (linksContainerRef.current.style.height = `${linksHeight}px`) :
       (linksContainerRef.current.style.height = "0px");
@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className="logo" alt="logo" />
+          <Link to="/"><img src={logo} className="logo" alt="logo" /></Link>
           <button className="nav-toggle" onClick={() => setShow(!show)}>
             <FaBars />
           </button>
@@ -32,7 +32,7 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <NavLink to={url}>{text}</NavLink>
                 </li>
               )
             })}
@@ -43,7 +43,7 @@ const Navbar = () => {
             const { id, url, icon } = socialIcon
             return (
               <li key={id}>
-                <a href={url}>{icon}</a>
+                <NavLink to={url}>{icon}</NavLink>
               </li>
             )
           })}
