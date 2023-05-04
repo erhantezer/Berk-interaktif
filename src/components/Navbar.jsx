@@ -1,7 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 import logo from "../assets/berk-logo-1.png";
 import { FaBars } from "react-icons/fa";
-import { links, social } from "../helper/data";
+import { 
+  links, 
+  // social 
+} from "../helper/data";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -31,14 +34,14 @@ const Navbar = () => {
             {links.map((link) => {
               const { id, url, text } = link;
               return (
-                <li key={id}>
+                <li key={id} className="navlink">
                   <NavLink to={url}>{text}</NavLink>
                 </li>
               )
             })}
           </ul>
         </div>
-        <ul className="social-icons">
+        {/* <ul className="social-icons">
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon
             return (
@@ -47,7 +50,7 @@ const Navbar = () => {
               </li>
             )
           })}
-        </ul>
+        </ul> */}
       </div>
     </nav>
   )
