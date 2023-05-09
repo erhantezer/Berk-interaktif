@@ -207,11 +207,11 @@ nav {
         animation: name duration timing-function delay iteration-count direction fill-mode;
     }
 
-    @keyframes logo {
-        0%   { transform: rotate(360deg);}
-        50% {transform: rotate(0deg)}
+@keyframes logo {
+    0%   { transform: rotate(360deg);}
+    50% {transform: rotate(0deg)}
 
-    }
+}
 
 .links a {
     color: var(--clr-black);
@@ -220,7 +220,7 @@ nav {
     letter-spacing: var(--spacing);
     display: block;
     padding: 0.5rem 1rem;
-    transition: var(--transition);
+    transition:color 0.5s ease-in ;
     text-align: center;
     /* background-color:var(--clr-primary-7 ); */
     text-transform: uppercase;
