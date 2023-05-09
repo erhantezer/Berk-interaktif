@@ -1,12 +1,22 @@
 import React from 'react'
 import Iframe from 'react-iframe';
+import logo from '../assets/Berk_edited.png'
 
 const Contact = () => {
   return (
     <div style={{display:"flex" }}>
 
       <div style={{width:"50%"}}>
-        <h1>Bize Ulaşın</h1>
+        <div>
+          <div >
+            <img className='logo' src={logo} alt="" />
+          </div>
+          <h1>Bize Ulaşın</h1>
+          <p >BERK İNTERAKTİF YAZILIM SİSTEMLERİ. LTD. ŞTİ.</p>
+          
+          <div className='line'>___</div>
+          <p>Hoşnudiye Mah. İsmet İnönü 1 CAD. 732 Sok. Bulvar 28 Plaza No:28 Kat:7 Daire:62 Tepebaşı/Eskişehir</p>
+        </div>
       </div>
 
       <div style={{ width: "50%", marginTop: "0rem" }}>
