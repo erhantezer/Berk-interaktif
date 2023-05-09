@@ -4,7 +4,7 @@ import logo from '../assets/Berk_edited.png'
 
 const Contact = () => {
   return (
-    <div style={{display:"flex" }}>
+    <div style={{display:"flex", margin:"1rem", textAlign:"center" }}>
 
       <div style={{width:"50%"}}>
         <div>
@@ -14,7 +14,7 @@ const Contact = () => {
           <h1>Bize Ulaşın</h1>
           <p >BERK İNTERAKTİF YAZILIM SİSTEMLERİ. LTD. ŞTİ.</p>
           
-          <div className='line'>___</div>
+          <div className='line'></div>
           <p>Hoşnudiye Mah. İsmet İnönü 1 CAD. 732 Sok. Bulvar 28 Plaza No:28 Kat:7 Daire:62 Tepebaşı/Eskişehir</p>
         </div>
       </div>

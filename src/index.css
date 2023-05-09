@@ -252,8 +252,9 @@ nav {
 .show-container {
     height: 10rem;
 }
+
 .line {
-width: 15rem;
+    width: 15rem;
     height: 0.25rem;
     background: var(--clr-primary-5);
     margin: 0 auto;
