@@ -28,18 +28,18 @@ export const links = [
         text: 'hizmetlerimiz',
     },
     {
-        id: 5,
+        id: 6,
         url: '/referans',
         text: 'referans',
     },
     {
-        id: 5,
+        id: 7,
         url: '/destek',
         text: 'destek',
     },
     {
-        id: 5,
-        url: '/iletişim',
+        id: 8,
+        url: '/contact',
         text: 'iletişim',
     },
 ];
