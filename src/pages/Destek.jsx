@@ -1,8 +1,11 @@
-import React from 'react'
+
 
 const Destek = () => {
   return (
     <div>
+      <h1>Destek Talep</h1>
+      <p>Vega Yazılım ürünleri ve Donanın Ürünleri ile alakalı  Online Destek almak için aşağıdaki Destek Talep Formunu doldurup gönderiniz.  
+      </p>
       <form>
         <div class="form-row">
           <div class="form-group col-md-6">
